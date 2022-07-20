@@ -157,7 +157,7 @@ int main() {
 
   int running = 1, i = 0;
 
-  Display *dpy = XOpenDisplay(0);
+  Display *dpy = XOpenDisplay(NULL);
   Window root = DefaultRootWindow(dpy);
 
   // Grab keys
